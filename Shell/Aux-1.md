@@ -43,6 +43,38 @@ F. For each user’s, the SSH configuration, I created an authorized_keys file a
 
 ![](2022-03-21-22-48-54.png)
 
+
+Before Deploying my script, I updated the current user with the correct public key and private key.
+
+Home directory .ssh folder
+
+> cd .ssh
+
+create a file for the public key
+
+> touch id_rsa.pub
+
+open the file using your favorite editor and paste in the public key
+
+> vi id_rsa.pub
+
+create a file for your private key
+
+> touch id_rsa
+
+open the file using your favorite editor and paste in the private key.
+
+![](2022-03-21-23-56-48.png)
+
+> vi id_rsa
+
+The Public Key
+
+![](2022-03-21-23-57-16.png)
+
+
+
+
 Note:
 
 ## Test a few of the users randomly, and ensure that you are able to connect to the server using the private key and the public key.
